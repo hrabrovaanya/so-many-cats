@@ -1,0 +1,284 @@
+
+.hello>h2{
+       text-align: center
+}
+.hello>h3{
+    text-align: center
+}
+.hello>p{
+    text-align: center
+}
+.hello{
+    width : 100%;
+     font-style: italic;
+        float:left;
+}
+/* блок каталога*/
+
+.katalog>h2{
+    color:#313026;
+    font-size: 40px;
+    text-align: center; 
+    font-family: Trocchi, serif; 
+    
+}
+.kath3{
+    color:#313026;
+    font-size: 25px;
+    text-align: center;
+    font-family: Trocchi, serif; 
+    margin-top: 5px;
+    background-color: #cee8f3;
+    border-radius:20px 20px; 
+    border: 1px solid;
+    border-color: #a89ba4;
+    background:transparent;
+    background-image: -webkit-linear-gradient(#d2f1ff, #d6f3ff, #ffffff);
+    background-image: -moz-linear-gradient(#d2f1ff, #d6f3ff, rgb(255, 255, 255));
+    background-image: -o-linear-gradient(#d2f1ff, #d6f3ff, #ffffff);
+    -moz-box-shadow: inset 0 0 7px #cee8f3;
+    -webkit-box-shadow: inset 0 0 7px #cee8f3;
+    -o-box-shadow: inset 0 0 7px #cee8f3;
+    box-shadow: inset 0 0 7px #cee8f3;
+    display: block;
+    text-decoration: none;
+    padding: 0px;
+}
+.katpict{
+    width :200px;
+    height: 250px;
+    border-radius: 5px 5px 0 0; 
+    border: 2px solid;
+    border-color: #a89ba4;
+}
+.katcat{
+    width: 50%;
+    margin:0 25% 2% 25%
+}
+.kattab{
+    display: inline-block;
+    vertical-align: center;
+    text-align: center;
+     font-size: 18px;
+    text-align: center; 
+    font-family: Trocchi, serif; 
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.col-lg-4{
+     background-color:  #ffebf5 !important;
+    border-radius: 0 0 10px 10px !important; 
+    border: 1px solid !important;
+    border-color: #a89ba4 !important;
+}
+.col-lg-4>a:link {
+    color: #771588 !important; 
+}
+.col-lg-4>a:visited {
+    color: #7c795d !important;
+}
+.col-lg-4>a:hover {
+    color: #771588 !important; 
+}
+.col-lg-4>a:active {
+    color: #771588 !important; 
+} 
+.col-lg-4{
+    font-family: Trocchi, serif !important; 
+    font-size: 16px !important;
+}
+/*конец блока каталога*/
+.mainpict{
+    width:300px !important;
+    height:400px !important;
+    border-radius: 10px/20px !important;
+    border-style: solid !important;
+    border-color: #ff6600 !important;
+}
+.mainpict:hover{
+	border-color: transparent !important;
+}
+/* блок страницы контактов*/
+    .contactright{
+        text-align: center;
+    }
+    form{
+        display: inline-block;
+        vertical-align: center;
+        font-size:20px;
+        font-weight:bold;
+        color:#536188;
+    }
+     .formm{
+            width:200px;
+            height:30px; 
+            font-style: italic;
+        }
+        .formma{
+            width:700px;
+            height:200px; 
+            font-style: italic;
+        }
+        input[type="email"]:focus{
+            background-color: #ff9;
+            color: red;}
+            input{
+                text-transform: capitalize;  
+              }
+/*конец блока контактов*/
+    
+/*блок шапки сайта*/
+    header{
+        background: linear-gradient(0deg, #ffebf5, #cee8f3);
+        border-radius: 0 0 30px 30px; 
+        border: 2px solid;
+        border-color: #a89ba4;
+    }
+    .cathead{ 
+        width: 110px;
+        height: 110px;
+    }
+    .logotext_h{
+        color: #7c795d;
+        font-family: Trocchi, serif; 
+        font-size: 60px;
+        font-weight: normal;
+        line-height: 48px;
+        margin: 0;
+    }  
+    .logotext_p{
+        top:50%;
+        color: #7c795d;
+        font-family: Trocchi, serif; 
+        font-size: 25px;
+        margin: 0;
+    }
+.w{
+    background: linear-gradient(0deg, #ffebf5, #cee8f3);
+    border-radius: 0 0 30px 30px; 
+}
+    header>hr{
+        margin: 0;
+    }
+    .menu>a{
+        background: #cee8f3;
+        border: none;
+        color: white;
+        padding: 5px 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .menu>a:link {
+        color: #e96dff; 
+    }
+    .menu>a:visited {
+        color: #888568;
+    }
+    .menu>a:hover {
+        color: #e96dff; 
+    }
+    .menu>a:active {
+        color: #e96dff; 
+    } 
+    .menu{
+        font-family: Trocchi, serif; 
+        font-size: 16px;
+    }
+    .where>form>input[type=text] {
+        font-size: 16px;
+        margin-right: auto;
+        padding: 5px;
+        margin-top: 7px;
+        border: none;
+        margin: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    .where>form>button {
+        font-size: 16px;
+        margin-right: auto;
+        padding: 5px;
+        margin-top: 7px;
+        margin-right: 15px;
+        background: #cee8f3;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        border-radius:0 10px 10px 0;
+    }
+  /*центральный блок*/
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+            }
+     h3{
+     font: size 18px;
+    color: #000000;
+    font-weight:400px;
+     }
+    .xar{
+    
+      font-size: 14px;
+       line-height:16px;
+       font-style: italic;
+      color:rgb(47, 47, 47);
+      background: white;
+      border: 1px solid;
+      border-color: #a89ba4;
+      border-radius:10px;
+            }
+     .podr{
+     font-size: 16px;
+    line-height:24px;
+    font-weight:400px;
+     text-align:left;
+     color: #484343
+            }
+    .podr>p:first-letter {
+        color: red;
+        font-size: 20px;
+        font-family: Trocchi, serif; 
+    }
+            .right_div{
+                width:40%;
+                float: left;
+                border-left:2px solid #ccc;
+            }
+            .left_div{
+                width : 60%; 
+                float:left;      
+            }
+            .maindiv{
+                display: flex;
+              
+             }
+            .button{
+                background: linear-gradient(0deg, #ff961f, #e92300);
+                border: none;
+                color: white;
+                padding: 20px 34px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 10px;
+                }
+ /*блок подвала*/
+    div>footer{
+                clear:both;
+                background: linear-gradient(0deg, #cee8f3, #ffebf5)
+            }
+    div>footer>hr{
+        margin: 0;
+    }
+    /*модальные окна*/
+ 
